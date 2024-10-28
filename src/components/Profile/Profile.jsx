@@ -1,8 +1,10 @@
+import "./Profile.css";
+
 export default function Profile({ name, tag, location, image, stats }) {
   return (
-    <div>
-      <div>
-        <img src={image} alt={name} /> <p>{name}</p> <p>{tag}</p>
+    <div id="profile">
+      <div id="profilewrapper">
+        <img src={image} alt={name} /> <p>{name}</p> <p>@{tag}</p>
         <p>{location}</p>
       </div>
       <ul>
