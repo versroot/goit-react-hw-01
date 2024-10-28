@@ -1,5 +1,4 @@
-ul {
-  list-style-type: none;
+#friendlist {
   display: flex;
   flex-direction: row;
   gap: 10px;

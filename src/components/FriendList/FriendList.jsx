@@ -3,7 +3,7 @@ import FriendListItem from "../FriendListItem/FriendListItem";
 
 export default function FriendList({ friends }) {
   return (
-    <ul>
+    <ul id="friendlist">
       {friends.map((friend) => (
         <li key={friend.id}>
           <FriendListItem
